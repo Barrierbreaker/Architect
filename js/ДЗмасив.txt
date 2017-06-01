@@ -1,0 +1,24 @@
+
+var names= ["nif","nuf","nafnaf"];
+var x=prompt('ВВедите имя');
+
+function fun1(x,names){ 
+  if(names.indexOf(x)!==-1){ 
+    console.log(names.indexOf(x));
+  }else{
+      console.log('Не верное имя');
+  } 
+} 
+
+var a=prompt('ВВедите индекс');
+
+function fun2(a,names){ 
+  if(((a<names.length)&& a>=0)&& a===true){ 
+   console.log( names[a]);
+  }else{
+    console.log('Не верный индекс');
+  } 
+} 
+
+fun1(x,names); 
+fun2(a,names);

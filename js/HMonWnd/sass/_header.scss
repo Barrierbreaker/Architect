@@ -1,0 +1,16 @@
+
+.site-bmenu{display:block;
+    background-color: green;
+    width: auto;
+    max-height: 68px;
+    padding: 0px;
+    margin: 0px;
+    &__page{margin-top: 10px;}
+    &__logo{}
+    &__list{display: inline-block; a{text-decoration: none; color: white; }}
+    &__item{ display: inline-block;text-align: center;
+   }
+    &__search{ display: inline-block;}
+    &__icon{display: inline-block;}
+    &__search1{}
+}

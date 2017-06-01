@@ -1,0 +1,183 @@
+li{list-style: none;}
+body{
+     background-color: #E4E4E4;
+}
+
+.slider-top {
+    height: 280px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;position: absolute;
+    z-index: 12;
+    background: rgba(0,0,0,0.6);
+}
+
+.slider-text {
+    color: white;
+    font-size: 27px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.slider-button {
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+     margin-bottom: 70px;
+}
+
+.slider-button button {
+    width: 170px;
+    height: 55px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.slider-button--green {
+    background: #89ca62;
+}
+
+.slider-button--blue {
+    background: #14b9d5;
+}
+
+.mid{
+    max-width: 100%;
+    max-height: 281px;
+    margin:0 auto;
+    color:#353535;
+    img{width: 100%;
+    max-height: 281px;}
+}
+.sl__slide{position: relative;}
+.sl2__slide img{height: 190px;
+    width:100%;
+    cursor: pointer;
+    background:black;
+    transition: background .3s;
+}
+.sl2__slide img:hover{
+    background:orange;
+}
+.slick-center {
+    transition: all .8s ease;
+}
+
+.slick-center::before {
+    content: 'Vanglo House By LWPAC in Canada';
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    width: inherit;
+    height: 190px;
+    background: rgba(0, 0, 0, .6);
+    text-align: center;
+    padding-top: 55px;
+}
+
+.slick-center::after {
+    content: 'READ MORE';
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    height: 35px;
+    width: 2.2%;
+    margin-left: 0.9%;
+    background: #14b9d5;
+    position: absolute;
+    top: 65%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.whitespace{/* Style for "Rectangle" */
+    margin:210px auto;
+    margin-bottom: 0px;
+width: 970px;
+height: 90px;
+background-color: #f7f7f7;}
+
+
+//masonry
+#container > div> h2{font-size:19px;}
+@import "compass/css3";
+
+$min_bp_a: 'min-width: 640px';
+$min_bp_b: 'min-width: 800px';
+$min_bp_c: 'min-width: 1200px';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Lato, sans-serif;
+}
+
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+    margin-bottom: 0px;
+}
+
+.item { 
+  width: 98%;
+  margin: 1%;
+  padding: 0px;
+  color: #333;
+  border: 2px solid #F1F1F1;
+  background: white;
+  box-shadow: 0px 0px 20px #EEE;
+  @include transition(all .3s ease-in);
+    text-align: center;
+  h1 {
+    margin-top: 10px;
+    font-weight: 300;
+  }
+  p {
+    font-weight: 300;padding: 20px;
+      padding-bottom: 0px;
+  }
+  img {
+    width: 100%;
+  }
+  &:hover {
+    @include transform(scale(1.1));
+  }
+    .inside{padding: 0; width: 20px;
+        display: inline-block;}
+}
+
+@media ($min_bp_a) {
+  .item {
+    width: 48%;
+  }
+}
+
+@media ($min_bp_b) {
+  .item {
+    width: 31%;
+  }
+}
+#container > div:nth-child(3) > a>img{width:30%;height: 90px;}
+#container > div:nth-child(3) > a:nth-child(2)>img{width: 45%;height: 110px;}
+#container > div:nth-child(3) > a:nth-child(3)> img{width: 45%;height: 110px;}
+
+//next section
+
+
+
+	
+			

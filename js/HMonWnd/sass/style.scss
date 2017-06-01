@@ -1,0 +1,7 @@
+@import "normalize";
+@import "header";
+@import "main";
+@import "footer";
+@media (min-width: 1200px) {
+    .area { width: 1170px; }
+}

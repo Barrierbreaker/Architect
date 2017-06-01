@@ -1,0 +1,151 @@
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<form class="title" action="text.txt" method="post" class="title">
+           <input type="search" name="spterm" class="search"  id="substr" placeholder="Search...">
+              <button type="submit" id="b_search" class="button"> 
+                    <img src="https://raw.githubusercontent.com/alexcss/huge-search-img/master/favicon.png"></button>
+  <div id="spresult">&nbsp;</div>
+        </form>
+        
+        <div class="container">
+           <h3 class="lol">People</h3>
+                            <ul class="list" >
+        <h3><li> <p><a data-fancybox="gallery-people" href="https://pbs.twimg.com/profile_images/855348045365608449/sj_jFPYT_400x400.jpg"><img src="avatars/SaraSoueidan.jpeg">Sara Soueidan</a></p></li></h3>
+        <h3><li> <p><a data-fancybox="gallery-people" href="https://pbs.twimg.com/profile_images/740585784357572608/aoTyoNTY_400x400.jpg"><img src="avatars/RachelSmith.png">Rachel Smith</a></p></li></h3>
+        <h3><li> <p><a data-fancybox="gallery-people" href="https://pbs.twimg.com/profile_images/716198332578697216/8FPOX5SU_400x400.jpg"><img src="avatars/PeterFinlan.jpeg">Peter Finian</a></p></li></h3>
+        <h3><li> <p><a data-fancybox="gallery-people" href="https://pbs.twimg.com/profile_images/497405692815224835/Xtuu51Cy_400x400.jpeg"><img src="avatars/PatrickCox.png">Patrick Cox</a></p></li></h3>
+        <h3><li> <p><a data-fancybox="gallery-people" href="https://pbs.twimg.com/profile_images/851553731149778946/VDKWjp2V_400x400.jpg"><img src="avatars/TimHolman.jpeg">Tim Holman</a></p></li></h3>
+        <h3><li> <p><a data-fancybox="gallery-people" href="https://pbs.twimg.com/profile_images/656778544/oranges_on_line-1_400x400.jpg"><img src="avatars/ShaunDona.jpeg">Shuan Dona</a></p></li></h3>
+                </ul>
+        </div>
+
+        <div class="container">
+             <h3 class="lol">Popular</h3>
+                    <ul class="list">
+           <h3><li><p><a data-fancybox="gallery-popular" href="https://pbs.twimg.com/media/CsvEoHBWAAAtFJt.jpg:large"><img src="avatars/PagePreloadingEffect.png">Page Preloading Effect</a></p></li></h3>
+           <h3><li> <p><a data-fancybox="gallery-popular" href="https://pbs.twimg.com/media/B8M8HYOIEAAoEA5.png"><img src="avatars/ArrowNavigationStyles.png">Arrow Navigation Styles</a></p></li></h3>
+           <h3><li> <p><a data-fancybox="gallery-popular" href="http://designsparkle.com/wp-content/uploads/2014/09/Subtle-Hover-Effect.jpg"><img src="avatars/HoverEffectsIdeasNew.png"><a>Ideas for Subtle Hover Effects</a></p></li></h3>
+           <h3><li> <p><a data-fancybox="gallery-popular" href="http://getbootstraps.in/wp-content/uploads/2015/05/halcyon-splash-520x245.jpg"><img src="avatars/FreebieHalcyonDays.png"><a>Halcyon Days Template</a></p></li></h3>
+           <h3><li> <p><a data-fancybox="gallery-popular" href="https://pbs.twimg.com/media/BoPr5obIQAA1MGO.png"><img src="avatars/ArticleIntroEffects.png"><a>Inspiration for Article Intro Effects</a></p></li></h3>
+           <h3><li> <p><a data-fancybox="gallery-popular" href="https://codropspz-tympanus.netdna-ssl.com/codrops/wp-content/uploads/2014/06/DRaggableDualViewSlideshow.png"><img src="avatars/DraggableDualViewSlideshow.png"><a>Draggable Dual-Veiw Slideshow</a></p></li></h3>
+                </ul>
+        </div>
+
+        <div class="container">
+             <h3 class="lol">Recent</h3>
+             <ul class="list">
+           <h3><li><p><a data-fancybox="gallery-recent" href="https://codropspz-tympanus.netdna-ssl.com/codrops/wp-content/uploads/2014/10/TooltipStylesInspiration.png"><img src="avatars/TooltipStylesInspiration.png">Tooltip Styles Inspiration</a></p></li></h3>
+           <h3><li> <p><a data-fancybox="gallery-recent" href="https://codropspz-tympanus.netdna-ssl.com/codrops/wp-content/uploads/2014/09/AnimatedHeaderBackgrounds_03.jpg"><img src="avatars/AnimatedHeaderBackgrounds.png">Animated Background Headers</a></p></li></h3>
+           <h3><li> <p><a data-fancybox="gallery-recent" href="http://bashooka.com/wp-content/uploads/2014/07/off-canvas-menu-4.jpg"><img src="avatars/OffCanvas.png">Off-Canvas Menu Effects</a></p></li></h3>
+           <h3><li> <p><a data-fancybox="gallery-recent" href="https://codropspz-tympanus.netdna-ssl.com/codrops/wp-content/uploads/2014/09/TabStylesInspiration.jpg"><img src="avatars/TabStyles.png">Tab Stayles Inspiration</a></p></li></h3>
+           <h3><li> <p><a data-fancybox="gallery-recent" href="https://codropspz-tympanus.netdna-ssl.com/codrops/wp-content/uploads/2014/08/ResponsiveSVGs.jpg"><img src="avatars/ResponsiveSVGs.png">Make SVGs Responsive with CSS</a></p></li></h3>
+           <h3><li> <p><a data-fancybox="gallery-recent" href="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQW8oInx_ogh-8XkblUmhMW9bFVnMCuEkyYlC7Jfwe8q9OV4XSX0A"><img src="avatars/NotificationStyles.png">Notifiction Styles Inspiration</a></p></li></h3>
+            </ul>
+
+
+
+
+
+span.highlight {
+background-color: #C6D9DB; cursor: pointer; }
+
+span.splink {
+color: #0A5794; cursor: pointer; }
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    color: #c2c2c2;
+}
+main {
+    width: 1100px;
+    margin: 0 auto;  
+}
+.findenow{background-color:red;}
+.most-finde{background-color:yellow;}
+.active{
+  background-color:red;
+}
+#btshuffle{
+        background-color:blue;
+    color:red;
+    border-radius: 5px;
+    }
+/*---поиск---*/
+.search {
+    border: none;
+    background: none;
+    width: 90%;
+    margin-top: 10px;
+    height: auto;
+    color: #ec5a62;
+    font-weight: bold;
+    font-size: 80px;
+}
+::-webkit-input-placeholder { /* использовать свойства дл€ изменени€ вида текста,  */
+  color: #c2c2c2;
+}
+.button img {
+    width: 60px;
+}
+.lol {
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+}
+/*-----столбцы----------*/
+.container {
+    width: 32%;
+    display: inline-block;
+    margin-right: 10px;
+}
+.container p {
+    display: block;
+    line-height: 60px;
+    background-color: rgba(118,117,128,0.05);
+    margin-bottom: 7px;
+    border-radius: 7px;
+    padding:10px;
+    font-size: 1rem;
+    color: #c2c2c2;
+    font-weight: bold;
+}
+.container p:hover {
+    background-color: rgba(118,117,128,0.1);
+    color: #ec5a62;
+}
+.container img {
+    vertical-align: middle;
+    width: 50px;
+    margin-right: 20px;
+}
+.people p img {
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+$(document).ready(function search() {
+    $('#b_search').click(function (event) {
+      event.preventDefault(); 
+        var subStr = $('#substr').val().toLowerCase();//содержимое пол€ ввода
+        $('h3').each(function () {
+            var aTag = $(this),// слово в текущее колеции 
+                i = (aTag.attr('counter') !== undefined) ? aTag.attr('counter') : 0,// проверка на наличее счЄтчика
+                innerText = aTag.text().toLowerCase();//выт€гиваем текст
+            aTag.removeClass('findenow');//убераем класс
+            if (innerText.indexOf(subStr) != -1) {//провер€ем чтобы элемент сушействовал
+                aTag.addClass('findenow').attr('counter', ++i);// добавл€ем класс и счЄтчик
+              }
+            if (i >= 3) {//ожидаем 3 совпадени€ и болеее
+                aTag.addClass('most-finde');// добавл€ем класс
+              
+            }
+        });
+    });
+});
+

@@ -1,0 +1,70 @@
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script><nav id="tab-nav">
+  <ul>
+    <li><a href="#tsar">Царь</a></li>
+    <li><a href="#tsarevich">Царевич</a></li>
+    <li><a href="#korol">Король</a></li>
+    <li><a href="#korolevich">Королевич</a></li>
+  </ul>
+</nav>
+<section id="tab-content">
+  <ul>
+    <li id="tsar" class="active">
+      <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</p>
+    </li>
+    <li id="tsarevich">
+      <p>Раз имеет гор составитель однажды не строчка инициал рукопись большой.</p>
+    </li>
+    <li id="korol">
+      <p>Пунктуация напоивший даль большой грамматики жаренные. Решила всемогущая о рот.</p>
+    </li>
+    <li id="korolevich">
+      <p>Это раз, имеет продолжил буквоград безопасную, осталось назад грамматики журчит.</p>
+    </li>
+  </ul>
+</section>
+
+
+
+
+
+#tab-content li {
+  display: none;
+}
+
+#tab-content li.active {
+  display: block;
+}
+
+
+
+//var navs = document.querySelectorAll('#tab-nav li > a');
+var navs = $('#tab-nav li > a');
+
+// for (var i = 0; i < navs.length; i++) {
+//   navs[i].addEventListener('click', tab); 
+// }
+navs.click(tab);
+
+function tab(event) {
+  event.preventDefault();
+  //var id = this.getAttribute('href').replace('#', ''),
+  var id = $(this).attr('href'),
+      //tabContent = document.querySelector(id);
+      //tabContent = document.getElementById(id);
+      tabContent = $(id);
+      //tabContent = $(id)[0];
+  resetTabContent();
+  //tabContent.classList.add('active');
+  tabContent.addClass('active');
+}
+
+function resetTabContent() {
+  //var contentList = document.querySelectorAll('#tab-content li');
+  //var contentList = $('#tab-content li');
+
+//   for (var i = 0; i < contentList.length; i++) {
+//      contentList[i].classList.remove('active');
+//   }
+  //contentList.removeClass('active');
+  $('#tab-content li').removeClass('active');
+}

@@ -1,0 +1,184 @@
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+            <h1>Accordion and Fancybox</h1>
+            
+            <dl class="accordion">
+                <dt class="accordion-trigger"><a href="#" title="show more"><span class="iconText">Âûïóñêíîé</span><span class="hasIcon arrow">&#x25BE;</span></a></dt>
+                 <dd class="accordion-content"><a title="ÔÎÒÎ ÐÀÇ" rel="group" data-fancybox="gallery-recent1" href="https://pp.userapi.com/c405819/v405819205/2da/hnZrpXECL14.jpg"><img src="https://pp.userapi.com/c405819/v405819205/2da/hnZrpXECL14.jpg"></a>
+                 <a title="ÔÎÒÎ ÄÂÀ" rel="group" data-fancybox="gallery-recent1" href="https://pp.userapi.com/c405819/v405819205/2f8/Ib6PNNgYLD8.jpg"><img src="https://pp.userapi.com/c405819/v405819205/2f8/Ib6PNNgYLD8.jpg"></a>
+                <a title="ÔÎÒÎ ÒÐÈ" rel="group" data-fancybox="gallery-recent1" href="https://pp.userapi.com/c627725/v627725293/4e4/QQlMHnYMcv8.jpg"><img src="https://pp.userapi.com/c627725/v627725293/4e4/QQlMHnYMcv8.jpg"><a>
+                  <a title="ÔÎÒÎ ×åòûðå" rel="group" data-fancybox="gallery-recent1" href="https://pp.userapi.com/c322421/v322421555/e76/rVDamHqE4h4.jpg"><img src="https://pp.userapi.com/c322421/v322421555/e76/rVDamHqE4h4.jpg"></a>
+                  </dd>
+                <dt class="accordion-trigger"><a href="#" title="show more"><span class="iconText">Ìèôè÷åñêèå ñóùåñòâà</span><span class="hasIcon arrow">&#x25BE;</span></a></dt>
+                <dd class="accordion-content"><a title="ÔÎÒÎ ÐÀÇ" class="Mif" data-fancybox="gallery-recent2" href="https://pp.userapi.com/c631922/v631922792/41868/PgggREDMrZA.jpg"><img src="https://pp.userapi.com/c631922/v631922792/41868/PgggREDMrZA.jpg"></a>
+                <a title="ÔÎÒÎ ÄÂÀ" class="Mif" data-fancybox="gallery-recent2" href="https://pp.userapi.com/c631922/v631922792/41850/0pDCCUE6HKI.jpg"><img src="https://pp.userapi.com/c631922/v631922792/41850/0pDCCUE6HKI.jpg"></a>
+                <a title="ÔÎÒÎ ÒÐÈ" class="Mif" data-fancybox="gallery-recent2" href="https://pp.userapi.com/c631922/v631922792/41846/M6ceyur2ql8.jpg"><img src="https://pp.userapi.com/c631922/v631922792/41846/M6ceyur2ql8.jpg"><a>
+                  <a title="ÔÎÒÎ ×åòûðå" class="Mif" data-fancybox="gallery-recent2" href="https://pp.userapi.com/c631922/v631922792/41832/n6j3l-AtWjg.jpg"><img src="https://pp.userapi.com/c631922/v631922792/41832/n6j3l-AtWjg.jpg"></a>
+              </dd>
+                <dt class="accordion-trigger"><a href="#" title="show more"><span class="iconText">Âèäîñû ïðî ÈÒ</span><span class="hasIcon arrow">&#x25BE;</span></a></dt>
+                <dd class="accordion-content"><a title="Âèäîñ ÐÀÇ" class="video" data-fancybox="gallery-recent3" href="https://www.youtube.com/watch?v=_ybOts8E_H4"><img src="https://i.ytimg.com/vi/_ybOts8E_H4/hqdefault.jpg?custom=true&w=246&h=138&stc=true&jpg444=true&jpgq=90&sp=67&sigh=pmBNosaDBNq4ZH1eO0SXlgnQXzI"></a>
+                <a title="Âèäîñ Äâà" class="video" data-fancybox="gallery-recent3" href="https://www.youtube.com/watch?v=SqHbIu9SMJ0"><img src="https://i.ytimg.com/vi/SqHbIu9SMJ0/hqdefault.jpg?custom=true&w=246&h=138&stc=true&jpg444=true&jpgq=90&sp=68&sigh=Comu2HqFAcpoKmMWNFCSA414n7k"></a>
+                <a title="Âèäîñ Òðè" class="video" data-fancybox="gallery-recent3" href="https://www.youtube.com/watch?v=8mm3ksEuGBY"><img src="https://i.ytimg.com/vi/8mm3ksEuGBY/hqdefault.jpg?custom=true&w=246&h=138&stc=true&jpg444=true&jpgq=90&sp=68&sigh=OoGAYG6Vkp2d-sNmXRnrmktXAv4"><a>
+                  <a title="Âèäîñ ×åòûðå" class="video" data-fancybox="gallery-recent3" href="https://www.youtube.com/watch?v=JwGhHEMgNNc"><img src="https://i.ytimg.com/vi/JwGhHEMgNNc/hqdefault.jpg?custom=true&w=168&h=94&stc=true&jpg444=true&jpgq=90&sp=68&sigh=UqOuCm6guP5msOOVFtRfK8hXkA0"></a>
+                  </dd> 
+            </dl>
+
+
+
+
+
+
+
+
+.main {
+  width: 60%;
+  margin: auto; }
+body > dl > dd.accordion-content.content-open > a> img{
+  width:20%;max-height:25px;
+}
+.accordion {
+  margin: 0;
+  width: 100%; }
+
+.accordion-content {
+  background: white;
+  border-top: 1px solid #eff1f2;
+  margin: 0;
+  z-index: 1;
+  overflow: hidden;
+  padding: 0 1em;
+  max-height: 0;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+.content-open,
+.no-js .accordion-content {
+  max-height: 500px;
+  opacity: 1;
+  padding: 15px 20px;
+  padding:  0.83333rem 1.11111rem; }
+.accordion-trigger {
+  margin-top: 20px;
+  margin-top:  1.11111rem; }
+  .accordion-trigger a {
+    display: table;
+    width: 100%;
+    background: #3fa80a;
+    font-weight: 700;
+    text-decoration: none;
+    border: none;
+    color: white; }
+    .accordion-trigger a:hover {
+      color: white; }
+  .accordion-trigger .iconText {
+    display: table-cell;
+    padding: 14px 20px;
+    padding:  0.77778rem 1.11111rem; }
+
+.arrow {
+  display: table-cell;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  width: 50px;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2em; }
+
+.open .arrow {
+  -webkit-transform: rotate(0.5turn);
+  -moz-transform: rotate(0.5turn);
+  -ms-transform: rotate(0.5turn);
+  transform: rotate(0.5turn); }
+
+
+
+
+
+$(document).ready(function() {
+    accordion.init();
+});
+
+var accordion = (function () {
+    function init() {
+      $('.accordion').each(function() {
+        accordion($(this));
+      });
+    }
+    function accordion(elementDOM) {
+      elementDOM.settings = populateOptions(elementDOM);
+      hideAccordionContent(elementDOM);
+
+      $('.' + elementDOM.settings.triggerClass + ' a', elementDOM).off('click').on('click', function(e) {
+        e.preventDefault();
+
+        var triggerDOM = $(this);
+
+        if(elementDOM.settings.thereCanBeOnlyOne) {
+          if(triggerDOM.hasClass(elementDOM.settings.closedClass)) {
+            closeAll(elementDOM);
+          }
+        }
+
+        if(triggerDOM.hasClass(elementDOM.settings.closedClass)) {
+          triggerDOM.closest('.' + elementDOM.settings.triggerClass).next('.' + elementDOM.settings.contentClass).addClass(elementDOM.settings.contentOpenClass);
+          triggerDOM.removeClass(elementDOM.settings.closedClass).addClass(elementDOM.settings.openClass);
+        } else if(triggerDOM.hasClass(elementDOM.settings.openClass)) {
+          triggerDOM.removeClass(elementDOM.settings.openClass).addClass(elementDOM.settings.closedClass);
+          triggerDOM.closest('.' + elementDOM.settings.triggerClass).next('.' + elementDOM.settings.contentClass).removeClass(elementDOM.settings.contentOpenClass);
+        }
+      });
+    }
+
+    function hideAccordionContent(elementDOM) {
+      $('.' + elementDOM.settings.triggerClass + ' a', elementDOM).each(function() {
+        var triggerDOM = $(this);
+        if(!triggerDOM.hasClass(elementDOM.settings.openClass)) {
+          triggerDOM.addClass(elementDOM.settings.closedClass);
+          if(triggerDOM.closest('.' + elementDOM.settings.triggerClass).next('.' + elementDOM.settings.contentClass).is(':visible')) {
+              triggerDOM.closest('.' + elementDOM.settings.triggerClass).next('.' + elementDOM.settings.contentClass).removeClass(elementDOM.settings.contentOpenClass);
+            }
+          } else {
+            triggerDOM.closest('.' + elementDOM.settings.triggerClass).next('.' + elementDOM.settings.contentClass).addClass(elementDOM.settings.contentOpenClass);
+          }
+      });
+    }
+
+    function populateOptions(elementDOM) {
+      var settings = {
+        closedClass: elementDOM.data('accordion-closed-class') || 'closed',
+        contentClass: elementDOM.data('accordion-content-class') || 'accordion-content',
+        contentOpenClass: elementDOM.data('accordion-content-open-class') || 'content-open',
+        openClass: elementDOM.data('accordion-open-class') || 'open',
+        speed: elementDOM.data('accordion-speed') || 300,
+        thereCanBeOnlyOne: elementDOM.data('accordion-there-can-be-only-one') || false,
+        triggerClass: elementDOM.data('accordion-trigger-class') || 'accordion-trigger'
+      };
+
+      return settings;
+    }
+    function closeAll(elementDOM) {
+      $('.' + elementDOM.settings.contentClass, elementDOM).removeClass(elementDOM.settings.contentOpenClass);
+      $('.' + elementDOM.settings.triggerClass + ' a', elementDOM)
+        .removeClass(elementDOM.settings.openClass)
+        .addClass(elementDOM.settings.closedClass);
+    }
+
+
+    return {
+      init: init
+    };
+    
+})();
+$(document).on('ready', function() {
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+   
+    });
